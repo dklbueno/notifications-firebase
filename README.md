@@ -38,21 +38,7 @@ npm install && npm run dev
 
 1. Crie uma conta no **console.firebase**
 
-2. Cole as confirurações no arquivo **firebase-messaging-sw.js** na pasta public
-```js
-firebase.initializeApp({
-    apiKey: "api-key",
-    authDomain: "auth-domian",
-    databaseURL: 'db-url',
-    projectId: "project-id",
-    storageBucket: "storage-bucket",
-    messagingSenderId: "message-sender-id",
-    appId: "app-id",
-    measurementId: "measurement-id"
-});
-```
-
-3. Cole o **SERVER KEY** na variável do **.env**
+2. Cole o **SERVER KEY** na variável do **.env**
 ```
 FIREBASE_SERVER_KEY=
 ```
