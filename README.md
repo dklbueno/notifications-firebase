@@ -1,5 +1,7 @@
 # Notification Firebase (App de Envio)
 
+Essa aplicação é responsável pelo envio da notificação para o firebase que deverá ser **escutada** por outra aplicação frontend **notifications-front**
+
 ## Instalação
 
 1. Faça uma cópia do arquivo **.env.example** como **.env**
@@ -54,3 +56,5 @@ firebase.initializeApp({
 ```
 FIREBASE_SERVER_KEY=
 ```
+
+Obs.: Para essa aplicação funcionar corretamente é necessário que exista um mesmo usuário no app de frontend
